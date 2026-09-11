@@ -36,17 +36,16 @@ The project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 
 Main tables used:
 
--   `customers`
--   `orders`
--   `order_items`
--   `products`
+-   customers
+-   orders
+-   order_items
+-   products
 
 The main customer/order/order-item data was analyzed through PostgreSQL,
 while the product data was also loaded from CSV into Power BI.
 
 ## 🔄 Project Workflow
 
-``` text
 Raw E-Commerce Data
         ↓
 Data Cleaning & Quality Checks
@@ -62,7 +61,7 @@ DAX Measures
 Interactive Dashboard
         ↓
 Business Insights
-```
+
 
 ## 🧹 Data Preparation
 
@@ -76,7 +75,7 @@ Data-quality checks included:
 
 Core Power BI relationships:
 
-``` text
+
 customers
     1
     |
@@ -86,7 +85,7 @@ orders
     |
     *
 order_items
-```
+
 
 The product table was connected through `product_id`.
 
